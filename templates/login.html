@@ -1,0 +1,17 @@
+<title>AccauntStorage | Login/Register</title>
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+<style>
+from{
+    background-color:rgb(255, 0, 0);
+}
+button{
+    background-color:orange;
+    font-size:20px;
+}
+</style>
+<form action="/login?url={{url}}" method="post">
+<input type="text" name="username"></br>
+<input type="password" name="password"></br>
+<div class="h-captcha" data-sitekey="f75182ee-48c3-4d15-924d-e3bc83c909ec"></div>
+<button type="submit">Login/Register</button>
+</form>

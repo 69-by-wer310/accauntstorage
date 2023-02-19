@@ -1,0 +1,22 @@
+<a href="/"><h1>AccauntStorage</h1></a>
+<h1 id="accauntstorage-docs">AccauntStorage Docs</h1>
+<p>hello this is accaunt storage docs.
+go!</p>
+<h1 id="redirect-to-accauntstorage-login">Redirect to accauntstorage login</h1>
+<p>URL to login form is <code>/login/auth?redirect_uri=URL</code>. Replace <code>URL</code> on the end url with emtry get argument.
+An early entered argument will be given a one-time about code.</p>
+<h1 id="using-adout-code">Using adout code</h1>
+<p>For using about code send <code>GET</code> request to <code>/api/v1/about/CODE</code>. Replace <code>CODE</code> on about code.</p></br>
+<p>Exemple server response:</p>
+<pre><code class="lang-json">{
+  <span class="hljs-attr">"ok"</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">"user"</span>: {
+    <span class="hljs-attr">"id"</span>: <span class="hljs-string">"7f268669-4b7f-42a7-a396-c0bf75c75bce"</span>,
+    <span class="hljs-attr">"username"</span>: <span class="hljs-string">"wer310"</span>
+  }
+}
+</code></pre>
+<h1 id="the-end">The End</h1>
+Please view <a href="/exemple">AccauntStorage Exemple</a>.
+<p>Thank you for read docs of AccauntStorage.
+THE END</p>
